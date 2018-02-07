@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/frankliu6/learn-angular#readme",
   "dependencies": {},
   "devDependencies": {
+    "@angular/cli": "^1.6.7",
     "lite-server": "^2.3.0"
   }
 }
