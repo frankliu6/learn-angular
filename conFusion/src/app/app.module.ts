@@ -12,6 +12,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 
+import 'hammerjs';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +23,10 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpModule,
-    FormsModule,
+    FormsModule, MatButtonModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldModule,
+    MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule,
+    MatSlideToggleModule, MatToolbarModule, MatListModule, MatGridListModule,
+    MatCardModule, MatIconModule, MatProgressSpinnerModule, MatDialogModule,
     FlexLayoutModule
 
   ],
